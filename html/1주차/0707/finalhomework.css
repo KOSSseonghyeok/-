@@ -1,0 +1,96 @@
+html{
+    background-color: black;
+    color:white;
+}
+h1{
+    font-size: 4em;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.header span{
+    margin: 10px;
+}
+.header2 {
+    display:flex;
+    flex-direction: flex-end;
+    padding: 10px;
+
+}
+.search{
+    border-radius: 5px;
+}
+.main1{
+    position: absolute;
+    top: 136px;
+    left: 200px;
+}
+.main2{
+    background: white;
+    color:black;
+    width:300px;
+    height: 440px;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 26px;
+    padding-top: 26px;
+    padding-right: 26px;
+    padding-bottom: 26px;
+    border-radius: 5px;
+
+}
+.signupforgithub{
+    height: 75px;
+    font-size: 20px;
+    background-color: rgb(109, 216, 16);
+    border-color: rgb(109, 216, 16);
+    color: white;
+    border-radius: 5px;
+}
+.write1{
+    font-size: 10px;
+}
+footer{
+    position: absolute;
+    background-color: white;
+    height: 138px;
+    width: 1550px;
+    bottom: 0
+}
+.signin{
+    border-radius: 5px;
+    background-color:black ;
+    color: white;
+    height: 40px;
+    width: 70px;
+}
+.signup{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    padding: 5px;
+    height: 40px;
+    width: 70px;
+}
+.info1{
+    width:292px;
+    height: 38px;
+    border-width: 5px;
+}
+.info2{
+    width:292px;
+    height: 38px;
+    border-width: 5px;
+}
+.info3{
+    width:292px;
+    height: 38px;
+    border-width: 5px;
+}
