@@ -34,8 +34,10 @@ body {
 
 main {
   width: 500px;
-  background-color: rgb(0, 200, 235);
+  background-color: rgb(5, 200, 235);
   padding: 2em 0;
+  display:flex;
+  justify-content:center;
 }
 
 img {
@@ -81,6 +83,13 @@ img {
   display: flex;
   justify-content: space-around;
 }
+
+.test{
+    width:50px;
+    background-color:blueviolet;
+    border-style:solid;
+}
+
 
 .btns button {
   border: none;

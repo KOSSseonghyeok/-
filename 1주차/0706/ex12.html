@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function setColor(color){
+        var alist = document.querySelectorAll('a');
+        var i = 0 ;
+        while(i < alist.length){
+            console.log(alist[i])
+            alist[i].style.color = color ;
+            i = i + 1 ;
+        }
+    }
+        function nightdayheader(){
+    var target = document.querySelector('body') ;
+    if (document.querySelector('#night_day').value === 'night') {
+        target.style.backgroundColor='black';
+        target.style.color='white';
+        document.querySelector('#night_day').value = 'day' ;
+        setColor("poderblue");
+    } else {
+        document.querySelector('body').style.backgroundColor='white';
+        document.querySelector('body').style.color='black';
+        document.querySelector('#night_day').value = 'night' ;
+        setColor('bule')
+    }
+        }
+    </script>
+</head>
+<body>
+    <a href="naver.com">배고파</a>
+    <a href="naver.com">배불러</a>
+    ㅋㅋ
+    <input id="night_day" type="button" value="night" onclick="
+        nightdayheader()
+    ">
+    <input id="night_day" type="button" value="night" onclick="
+        nightdayheader()
+    ">
+</body>
+</html>
