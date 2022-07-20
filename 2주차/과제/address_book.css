@@ -1,0 +1,13 @@
+html{
+    display: flex;
+}
+
+
+
+.header{
+    justify-content: center;
+    color: brown;
+}
+.list{
+    margin: auto;
+}
